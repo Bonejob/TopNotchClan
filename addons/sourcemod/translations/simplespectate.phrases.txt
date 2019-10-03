@@ -1,0 +1,42 @@
+﻿"Phrases"
+{
+	"Stopped spectating"
+	{
+		"#format"	"{1:s}"
+		"en"		"Stopped tracking player: {1}"
+	}
+	"Yourself"
+	{
+		"en"		"You can't spectate yourself"
+	}
+	"Spectator"
+	{
+		"en"		"You can't spectate another spectator"
+	}
+	"Spectating"
+	{
+		"#format"	"{1:s}"
+		"en"		"Now spectating {1}. Type !stopspec or /stopspec to stop spectating this player"
+	}
+	"Invalid Target"
+	{
+		"en"		"Invalid target"
+	}
+	"Cant Target"
+	{
+		"en"		"Can't target this player"
+	}
+	"Must Have Target"
+	{
+		"en"		"You must be following/tracking a player to punish"
+	}
+	"Target Left"
+	{
+		"en"		"The player you were following/tracking has left"
+	}
+	"Punished"
+	{
+		"#format"	"{1:s}{2:s}{3:s}"
+		"en"		"{1} was punished with a {2} for {3}"
+	}
+}

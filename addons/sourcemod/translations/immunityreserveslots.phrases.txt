@@ -1,0 +1,115 @@
+"Phrases"
+{
+	"irs_version"
+	{
+		"en"	"Immunity Reserve Slots version."
+	}
+	"irs_kicktype"
+	{
+		"en"	"Who to kick when a valid player is found (0 - random, 1 - highest ping, 2 - highest time, 3 - lowest time)."
+	}
+	"irs_kickreason"
+	{
+		"en"	"Message to display when a client is kicked for a normal reserve slot (\"default\" - uses translation phrase, anything else uses what you enter)."
+	}
+	"irs_rejectreason_enable"
+	{
+		"en"	"Enable reject reason with the Connect extension (0 - disable, 1 - enable)."
+	}
+	"irs_rejectreason"
+	{
+		"en"	"Message to display when a client gets rejected for a reserve slot when they have reserve rights with the Connect extension (\"default\" - uses translation phrase, anything else uses what you enter)."
+	}
+	"irs_kickreason_immunity"
+	{
+		"en"	"Message to display when a client is kicked for a reserve slot based on immunity (\"default\" - uses translation phrase, anything else uses what you enter)."
+	}
+	"irs_log"
+	{
+		"en"	"Enable logging (0 - disable, 1 - enable highly verbose logs, 2 - only log the disconnected and connecting users in regular SM logs)."
+	}
+	"irs_immunity"
+	{
+		"en"	"Enable immunity check (0 - disable, 1 - immunity check if server is full of reserves, 2 - as with 1 but also allow players with high enough immunity and no reserve flag to stay connected)."
+	}
+	"irs_kickspecfirst"
+	{
+		"en"	"When enabled spectators are always kicked first before anyone else (0 - disable, all players are taken into account for kicking, 1 - enable)."
+	}
+	"irs_kickspecdelay"
+	{
+		"en"	"The delay, in seconds, to kick spectators (0 - instant, any other value gives spectators a grace of xx seconds until they can be kicked)."
+	}
+	"irs_donator_support"
+	{
+		"en"	"When enabled along with the donators plugin, donaotrs will be allowed to connect (0 - disable, 1 - allow donators to connect)."
+	}
+	"irs_donator_immunity"
+	{
+		"en"	"The immunity value to give to donators, if required for immunity checks within IRS."
+	}
+	"irs_highimmunitylimit"
+	{
+		"en"	"The maximum amount of players that can connect to the server and kick a low immunity reserve slot player (0 - no limit, more than 0 to set the max limit)."
+	}
+	"irs_highimmunityvalue"
+	{
+		"en"	"This value and over are players who are considered to have high immunity (0 - disable, more than 0 to set the high immunity value)."
+	}
+	"irs_keepbalance"
+	{
+		"en"	"This tries to kick people in such a way to prevent autobalance (0 - disable, 1 - enable)."
+	}
+	"irs_autopassword"
+	{
+		"en"	"Allow direct connecting reserve slot users to connect without having to type in the password on a password protected server with the Connect extension (0 - disable, 1 - enable, 2 - as with 1 but allow all connecting clients to connect)."
+	}
+	"irs_kicklist_file"
+	{
+		"en"	"Path to kick list file (\"default\" - uses a file in the sourcemod config folder called irs_kicklist.ini, anything else uses what you enter e.g. \"cfg/kicklist.cfg\")."
+	}
+	"irs_kicklist_mode"
+	{
+		"en"	"Enable kick list mode (0 - disable, normal reserve slot operation, 1 - only use a kick list to kick specific clients, 2 - as with 1 but allow any connecting client to kick people from the server)."
+	}
+	"irs_kicklist_reload"
+	{
+		"en"	"Reloads the kick list."
+	}
+	"IRS Kick Log"
+	{
+		"#format"	"{1:s},{2:s},{3:s},{4:s}"
+		"en"	"\"{1}\" ({2}) connected, \"{3}\" ({4}) was kicked."
+	}
+	"IRS Kick Reason"
+	{
+		"en"	"Slot reserved."
+	}
+	"IRS Reject Reason"
+	{
+		"en"	"No reserve slots available."
+	}
+	"IRS Kick List Reloaded"
+	{
+		"en"	"[SM] Immunity Reserve Slots kick list reloaded."
+	}
+	"IRS Kick Reason Immunity"
+	{
+		"en"	"Slot reserved - low immunity."
+	}
+	"IRS Plugin Error"
+	{
+		"#format"	"{1:s}"
+		"en"	"Unloaded plugin {1} and moved to disabled folder, when installing IRS please do not use any other reserve slot plugins."
+	}
+	"IRS Kick List Path Error"
+	{
+		"#format"	"{1:s}"
+		"en"	"Path to kick list file \"{1}\" not found or unreadable, disabling kick list mode until corrected."
+	}
+	"IRS Donator Plugin Error"
+	{
+		"en"	"Unable to load the donator plugin, please check your plugins folder for the donator plugin or any other errors in your error logs."
+	}
+}
+

@@ -1,0 +1,4 @@
+hostname "(-TN-) JormansTest"
+rcon_password "jormtholomue"
+sv_contact "jormangundr@topnotchclan.com"
+mp_timelimit "30" 

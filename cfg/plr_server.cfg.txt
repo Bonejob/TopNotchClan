@@ -1,0 +1,228 @@
+// Name of Server
+hostname "(-TN-) Jorms Testing Bed"
+rcon_password "_yeti_forever"
+
+// Force players on a team instead of letting them choose
+mp_forceautoteam 1
+
+// Log everything to one file instead of one per map
+sv_log_onefile "1"
+
+//replay_name "TopNotchClan.com"
+
+//Activates/Deactivates Lobby-based hosting mode 
+//   0 = not active
+//   1 = Put in quickplay pool (based on current map)
+tf_mm_servermode 1
+
+// TODO NEED TO SET THIS
+//tf_server_identity_account_id 712
+//tf_server_identity_token ",&LTt4,1"Yah)zW"
+
+// REQUIRES DBLOCKER: dblocker.didrole.com
+//db_show_steamid_on_connect 0
+//db_anti_wallhack 1
+
+// ALLOW VOTING?
+sv_allow_votes 1
+
+// ALLOW PEOPLE TO VOTE FOR THE NEXT LEVEL?
+sv_vote_issue_nextlevel_allowed 0
+
+// ALLOW PEOPLE TO VOTE FOR KICKING PEOPLE OFF THE SERVER? 
+sv_vote_issue_kick_allowed 0
+
+// ALLOW PEOPLE TO VOTE TO CHANGE THE MAP? 
+sv_vote_issue_changelevel_allowed 0
+
+// ALLOW PEOPLE TO VOTE TO RESTART THE MAP? 
+sv_vote_issue_restart_game_allowed 0
+
+// ALLOW PEOPLE TO VOTE TO SCRAMBLE THE TEAMS? 
+sv_vote_issue_scramble_teams_allowed 0
+
+// TEXT ONLY VERSION OF MOTD FILE FOR THOSE WHO DISABLED HTML MOTDs
+motdfile_text "nohtmlmotd.txt"
+
+// CELEBRATE A BIRTHDAY
+tf_birthday 0
+
+//Number of minutes to ban users who fail rcon authentication
+sv_rcon_banpenalty 7
+
+//Max number of times a user can fail rcon authentication before being banned
+sv_rcon_maxfailures 3 
+
+//Complaint slot
+sv_contact "admins@topnotchclan.com"
+
+//Decals/Spray Things
+decalfrequency 3
+r_decals 2048
+mp_decals 200
+
+//Fall Damage
+mp_falldamage 1
+
+//Allow cheating
+sv_cheats 0
+
+//After this many seconds without a message from the client, the client is dropped
+sv_timeout 60
+
+//Allow clients to download files
+sv_allowupload 1
+
+//Allow clients to upload customizations files
+sv_allowdownload 1
+
+//Whether the server enforces file consistency for critical files
+sv_consistency "1"
+
+//Is the server pausable?
+sv_pausable "0"
+
+//Max number of rounds to play before the server changes map
+mp_maxrounds "2"
+
+mp_footsteps "1"
+
+//Teams are unbalanced when one team has this many more players than the other team.
+mp_teams_unbalance_limit "1"
+
+//Automatically autobalance teams?
+mp_autoteambalance "0"
+
+//Time after round win until round restarts aka. TIME AFTER WIN TO TEABAG PEOPLE
+mp_bonusroundtime "15"
+
+//Deals with Idle Players. 
+//   1 = Sends them into Spectator mode then kicks them if they're still idle
+//   2 = Kicks them out of the game
+mp_idledealmethod "0"
+
+//Number of flag captures per round on CTF maps. Set to 0 to disable.
+tf_flag_caps_per_round "3"
+
+//Turn on/off tf stats tracking
+tf_stats_track "1"
+
+//Allow player gibbing.
+//   0: never
+//   1: normal
+//   2: always
+tf_playergib "1"
+
+//NO DESCRIPTION FOUND
+mp_forcerespawn 1
+
+//TODO
+//sv_downloadurl "http://topnotchclan.com/server"
+
+//Enable disable stalemate mode.
+mp_stalemate_enable 1
+
+//amount of time players can chat after the game is over
+mp_chattime 0
+
+//Maximum allowed file size for uploading in MB
+net_maxfilesize 64
+
+//replaced mp_stalemate_at_timelimit 
+//Allow the match to end when mp_timelimit hits instead of waiting for the end of the current round.
+mp_match_end_at_timelimit 0
+
+//World Gravity
+sv_gravity 800
+
+//Players can hear all other players, no team restrictions
+sv_alltalk 0
+
+//rf_clients 0 -- REMOVED NO NEED FOR FAKE PLAYERS
+
+//gameme_webpage topnotch.hlstatsx.com -- NEED TO LOOK INTO
+
+// neph_nostats 1 -- NO LONGER NEEDED DEALT TITH A TIMEOUT BUG PREVENTION PLUGIN
+
+//To use pure server mode on a server, set the sv_pure console variable to 1 or 2.
+//=== Mode 1 Details ===
+// In this mode, the list of content that the server enforces is specified in the file 
+// pure_server_whitelist.txt, which is contained in the server's hl2 directory. Server 
+// administrators can edit this file to change which content clients are allowed to modify. 
+// For example, the server could specify in this file that clients are allowed to modify 
+// sounds, but not materials or models.
+//=== Mode 2 Details ===
+// In this mode, all game content is forced to be default. This is identical to running 
+// in mode 1 and with everything in the whitelist file set to from_steam.
+sv_pure 1
+
+// By default, the server will kick clients whose custom content varies from that the server is using. 
+// By setting sv_pure_kick_clients to 0, the server will only display a warning about clients using 
+// this kind of "impure" custom content. The server can force the client to use content provided by the 
+// game, and will never kick players who have only modded default content, like custom skins or models.
+sv_pure_kick_clients 0
+
+//sv_tags "PST,(-TN-),HLstatsX,stats,TopNotchClan.com,payload,pl,Recruiting,topnotchclan,tn" 
+sv_tags "PST,(-TN-),TopNotchClan.com,payload,pl,topnotchclan,tn" 
+
+//Allow or disallow clients from using voice_inputfromfile on this server.
+sv_allow_voice_from_file 1
+
+//Allow or disallow the wait command on clients connected to this server.
+sv_allow_wait_command 0
+
+// Make sure the right people are banned
+exec banned_user.cfg
+exec banned_ip.cfg
+writeid
+writeip
+
+//files
+//mapcyclefile "mapcycle.txt"
+mapcyclefile "mapcycle_quickplay_payload.txt"
+
+// disable lag compensation
+//sv_unlag 1
+
+// The region of the world to report this server in.
+sv_region 1
+
+//frame rate limiter
+fps_max 0
+
+//Collect CPU usage stats
+sv_stats 1
+
+//This sets the minimum value for cl_cmdrate. 0 == unlimited.
+sv_mincmdrate 30
+
+// (If sv_mincmdrate is > 0), this sets the maximum value for cl_cmdrate.
+sv_maxcmdrate 101
+
+//Minimum updates per second that the server will allow
+sv_minupdaterate 30
+
+//Maximum updates per second that the server will allow
+sv_maxupdaterate 101
+
+//Max bandwidth rate allowed on server, 0 == unlimited
+sv_maxrate 70000
+
+//Min bandwidth rate allowed on server, 0 == unlimited
+sv_minrate 20000
+ 
+//Number of fragments for a splitpacket that can be sent per frame
+net_splitrate 2
+
+//Max bytes per second when queueing splitpacket chunks
+net_splitpacket_maxrate 70000
+
+//This can be used to force the value of cl_predict for connected clients (only while they are connected).
+sv_client_predict 1
+
+//net_maxcleartime .001 -- CHECK LATER
+//sv_client_cmdrate_difference 30 -- CHECK LATER
+//sv_client_min_interp_ratio 1 -- CHECK LATER
+//sv_client_max_interp_ratio 5 -- CHECK LATER
+
+heartbeat

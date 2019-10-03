@@ -1,0 +1,47 @@
+// Advertisements 0.5
+// by Tsunami
+// 
+// Types
+// -----
+// C: Center message
+// H: Hint message
+// M: Menu message
+// S: Say message
+//    - Colors:  {DEFAULT}, {TEAM}, {GREEN}, {LIGHTGREEN}
+//    - Example: {GREEN}Current {LIGHTGREEN}Map: {DEFAULT}{CURRENTMAP}
+// T: Top message
+//    - Colors:  {WHITE},  {RED},  {GREEN}, {BLUE}, {YELLOW}, {PURPLE}, {CYAN},
+//               {ORANGE}, {PINK}, {OLIVE}, {LIME}, {VIOLET}, {LIGHTBLUE}
+//    - Example: {ORANGE} www.domain.com
+//
+// Flags (optional)
+// -----
+// Accepts flags of admins that will not see the advertisement.
+// When omitted everyone will see the advertisement.
+// When left empty only admins will see the advertisement.
+
+"Advertisements"
+{
+	"1"
+	{
+		"type"		"S"
+		"text"		"{TEAM}Looking for an active and kick ass community? Look no further! Join us on the forums @ {GREEN}http://www.topnotchclan.com{TEAM} and introduce yourself!"
+	}
+	"2"
+	{
+		"type"		"T"
+		"text"		"Tired of getting booted for VIPS? Visit our forums @{ORANGE}http://www.topnotchclan.com{DEFAULT} to find out how you too can attain VIP status."
+		"flags"		"a"
+	}
+	"3"
+	{
+		"type"		"S"
+		"text"		"{TEAM}You have power! Type: {GREEN}rtv{TEAM} to change the map. {GREEN}!votemenu {TEAM}for all voting options. Or try: {GREEN}!votescramble, !votekick, !votealltalk"
+	}
+	"4"
+	{
+		"type"		"S"
+		"text"		"{TEAM} Sick of the fates raining down random crits on you all day long?  {GREEN}Join our no Random Crits server. {TEAM} Same set of PLR Maps, minus those unlucky deaths to random crits. {GREEN}Connect 192.124.18.170:27666 "
+
+	}
+}

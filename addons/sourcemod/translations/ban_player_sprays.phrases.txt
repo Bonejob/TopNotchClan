@@ -1,0 +1,101 @@
+"Phrases"
+{
+	"Ban Added"
+	{
+		"#format"	"{1:N}"
+		"en"			"Ban added for {1}'s sprays."
+	}
+	"Banned Spray"
+	{
+		"#format"	"{1:N}"
+		"en"			"Banned {1}'s sprays."
+	}
+	"Unbanned Spray"
+	{
+		"#format"	"{1:N}"
+		"en"			"Unbanned {1}'s sprays"
+	}
+	"Checking Permissions"
+	{
+		"en"			"Permissions are being checked, you cannot use sprays until verified.  Try again in a few seconds."
+	}
+	"Cant Spray"
+	{
+		"en"			"You are no longer allowed to use sprays on this server."
+	}
+	"Sprayed By center"
+	{
+		"#format"	"{1:s},{2:s},{3:.2f}"
+		"en"			"Sprayed By [{1} - {2}]\n[{3}] seconds ago"
+	}
+	"Sprayed By hint"
+	{
+		"#format"	"{1:s},{2:s},{3:.2f}"
+		"en"			"Sprayed By [{1}]\nID: [{2}]\n[{3}] seconds ago"
+	}
+	"Sprayed By keyhint"
+	{
+		"#format"	"{1:s},{2:s},{3:.2f}"
+		"en"			"Banned Player Sprays\n\nSprayed By [{1}]\nID: [{2}]\n[{3}] seconds ago"
+	}
+	"Set Spray"
+	{
+		"#format"	"{1:s},{2:s}"
+		"en"			"Set spray ban value for [{1}] to {2}"
+	}
+	"Valid Parameters"
+	{
+		"#format"	"{1:s},{2:s}"
+		"en"			"Valid parameters are 1 or 0, you set ban spray for [{1}] to [{2}]"
+
+	}
+	"List"
+	{
+		"en"			"List of Players With Banned Spray Status"
+	}
+	"List2"
+	{
+		"en"			"STATUS       Player Info"
+	}
+	"No Players"
+	{
+		"en"			"No players found"
+	}
+	"Removed"
+	{
+		"#format"		"{1:N}"
+		"en"			"Successfully removed {1}'s spray"
+	}
+	"Error"
+	{
+		"en"			"{red}ERROR{default} - not currently looking at a valid spray"
+	}
+	"Display"
+	{
+		"en"			"Display Banned Spray Status"
+	}
+	"Ban Unban"
+	{
+		"en"			"Ban/Unban Player Sprays"
+	}
+	"Ban Sprays"
+	{
+		"en"			"Ban Sprays for Player:"
+	}
+	"Choose"
+	{
+		"en"			"Choose:"
+	}
+	"Status"
+	{
+		"en"			"Banned Spray Status"
+	}
+	"You are banned"
+	{
+		"en"			"You are banned from using sprays"
+	}
+	"You are not banned"
+	{
+		"en"			"You are not banned from using sprays"
+	}
+}

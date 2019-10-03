@@ -1,0 +1,58 @@
+"Phrases"
+{
+	"Enabled Medipacks"
+	{
+		"en"			"Medipacks plugin is now enabled"
+		"de"			"Medipacks Plugin wurde aktiviert"
+	}
+	
+	"Disabled Medipacks"
+	{
+		"en"			"Medipacks plugin is now disabled"
+		"de"			"Medipacks Plugin wurde deaktiviert"
+	}
+
+	"OnDeath Medipacks"
+	{
+		"en"			"Medics will drop Medipacks on death"
+		"de"			"Medics lassen beim sterben Medipacks fallen"
+	}
+
+	"OnCommand Medipacks"
+	{
+		"en"			"Medics are able to drop Medipacks by using their Mediguns secondary fire"
+		"de"			"Medics können durch ihr alternatives Medigun Feuer Medipacks fallen lassen" 
+	}
+
+	"OnDeathAndCommand Medipacks"
+	{
+		"en"			"Medics will drop Medipacks on death and can drop them by using their Mediguns secondary fire"
+		"de"			"Medics lassen beim sterben Medipacks oder können durch ihr alternatives Medigun Feuer Medipacks fallen lassen"
+	}
+	
+	"UberCharge Usage"
+	{
+		"en"			"Usage: sm_ubercharge <name|#userid> [amount]"
+		"de"			"Benutzung: sm_ubercharge <name|#userid> [amount]"
+	}
+	
+	"Not a Medic"
+	{
+		"#format"		"{1:s}"
+		"en"			"The client \"{1}\" is not a Medic"
+		"de"			"Der Spieler \"{1}\" ist kein Medic"
+	}
+	
+	"Invalid Amount"
+	{
+		"en"			"The UberCharge amount has to be between 0 and 100"
+		"de"			"Die UberCharge Menge muss zwischen 0 und 100 liegen"
+	}
+	
+	"Changed UberCharge"
+	{
+		"#format"		"{1:s},{2:d}"
+		"en"			"You changed the UberCharge of {1} to {2} percent!"
+		"de"			"Du hast den UberCharge von {1} auf {2} Prozent gesetzt!"
+	}
+}

@@ -1,0 +1,21 @@
+"Updater"
+{
+	"Information"
+	{
+		"Version"
+		{
+			"Latest"	"3.1.0"
+		}
+		"Notes"	"Find a list of my plugins (and links to their threads) at www.doctormckay.com. Changes:"
+		"Notes" " - Added support for Steam3 IDs"
+	}
+	
+	"Files"
+	{
+		"Plugin"	"Path_SM/plugins/custom-chatcolors.smx"
+		"Package"	"Path_SM/configs/custom-chatcolors.cfg"
+		"Source"	"Path_SM/scripting/custom-chatcolors.sp"
+		"Source"	"Path_SM/scripting/mckayupdater.sp"
+		"Source"	"Path_SM/scripting/include/ccc.inc"
+	}
+}

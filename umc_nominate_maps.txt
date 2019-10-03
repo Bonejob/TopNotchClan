@@ -1,0 +1,41 @@
+"umc_mapcycle"
+{
+    "Nominate"
+    {
+        "maps_invote"   		"6"
+		"default_min_players"	"0"
+		
+        "pl_badwater" 
+		{
+			"max_players" 		"24" 
+		}
+		"pl_frontier_final" {}
+		"pl_upward" {}
+		"pl_borneo" {}
+		"pl_goldrush" 
+		{  
+            "min_time" 			"000"
+            "max_time" 			"1400"
+            "max_players" 		"24"
+        }	
+		"pl_badwater_pro_v9" {}
+		"pl_barnblitz_pro6" {}
+		"pl_5curve" {}
+		"pl_beerbowl_b6c" {}
+		"pl_boundary_final1" {}
+		"pl_cashworks_final1" {}
+		"pl_deadwood" {}
+		"pl_halfacre" {}
+		"pl_manngrove_rc5" {}
+		"pl_millstone" {}
+		"pl_metropolis_b5" {}
+		"pl_pier_b20" {}
+		"pl_repository_rc3" {}
+		"pl_stovepipe_b3" {}
+		"pl_borax_rc2" {}
+		"pl_swiftwater_final" {}
+		"pl_deplane_b6" {}
+		"pl_floodgates_b7" {}
+		"pl_goldrock_rc2" {}
+	}
+}

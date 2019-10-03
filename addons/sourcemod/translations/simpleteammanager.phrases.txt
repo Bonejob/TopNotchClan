@@ -1,0 +1,92 @@
+"Phrases"
+{
+	"PlayerLevelCmd"
+	{
+		"en"		"Command must be run at the player level"
+		"fr"		"Cette commande doit être tapée en jeu"
+		"hu"		"Ezt a parancsot jatekosi szinten kell futtatni!"
+	}
+	"RestrictedCmd"
+	{
+		"en"		"You must be a donator or admin to run this command"
+		"fr"		"Vous devez être un donateur ou un admin pour lancer cette commande"
+		"hu"		"A parancs futtatasahoz admin, vagy tamogatoi szint szukseges!"
+	}
+	"InValidTeam"
+	{
+		"en"		"You must be on red or blue to swap teams"
+		"fr"		"Vous devez être RED ou BLU pour changer d'équipe"
+		"hu"		"Jatekban kell lenned, hogy megcsereld a csapatokat!"
+	}
+	"PlayerInValidTeam"
+	{
+		"en"		"Player must be on red or blue to swap teams"
+		"fr"		"Le joueur doit être RED ou BLU pour changer d'équipe"
+		"hu"		"Valamelyik csapatban kell lenni, hogy csere legyen"
+	}
+	"PlayerQueue"
+	{
+		"en"		"You have been queued to swap teams on next death"
+		"fr"		"Vous avez été mis en attente pour changer d'équipe lors de votre prochaine mort"
+		"hu"		"A kovetkezo halalnal csapatcsere lesz"
+	}
+	"PlayerSwitched"
+	{
+		"en"		"Your team has been switched"
+	}
+	"PlayerSwitched1"
+	{
+		"en"		"Your team has been switched as requested"
+		"fr"		"Vous avez changé d'équipe comme demandé"
+		"hu"		"A keresnek eleget teve a csapatod meg lett csererlve"
+	}
+	"PlayerSwitched2"
+	{
+		"en"		"Your team has been switched by an Admin"
+		"fr"		"Vous avez été changé d'équipe par un admin"
+		"hu"		"Az Admin megcserelte a csapatodat!"
+	}
+	"SwapTeamMsg"
+	{
+		"en"		"Type /swapteam or !swapteam to swap your team!"
+	}
+	"PlayerSwitched3"
+	{
+		"#format"	"{1:s}"
+		"en"		"{1}'s team has been switched"
+		"fr"		"{1} a changé d'équipe"
+		"hu"		"{1} csapata meg lett cserelve"
+	}
+	"Scramble"
+	{
+		"en"		"Teams are about to be scrambled!"
+		"fr"		"Les équipes vont être rééquilibrés"
+		"hu"		"A csapatok hamarosan meg lesznek keverve!"
+	}
+	"VoteScramble1"
+	{
+		"#format"	"{1:i}{2:i}"
+		"en"		"Vote Scramble successful with {1} votes out of {2}"
+		"fr"		"Le vote d'équilibrage des équipes a réussi avec {1} votes pour sur {2}"
+		"hu"		"A szavazas sikeres volt, {1} szavazat a keveresre a {2} -bol"
+	}
+	"VoteScramble2"
+	{
+		"#format"	"{1:i}{2:i}"
+		"en"		"Vote Scramble failed with {1} votes out of {2}"
+		"fr"		"Le vote d'équilibrage a échoué avec {1} votes pour sur {2}"
+		"hu"		"A szavazas sikertelen volt, {1} szavazat a keveresre a {2} -bol"
+	}
+	"VoteInProgress"
+	{
+		"en"		"A vote is currently in progress"
+		"fr"		"Un vote est actuellement en cours"
+		"hu"		"Egy szavazas mar fut!" 
+	}
+	"ScrambleTime"
+	{
+		"en"		"A vote was recently made, please wait"
+		"fr"		"Un vote a déjà été fait récemment, réessayez plus tard"
+		"hu"		"Nemreg volt szavazas, kerlek varj egy kicsit!"
+	}
+}
